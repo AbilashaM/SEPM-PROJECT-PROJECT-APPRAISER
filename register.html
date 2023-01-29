@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<title>Register Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+
+    <div class="box">
+    <img src="user.png" class="user">
+
+        <h1>Create an account</h1>
+
+        <form name="regform" action="register.php" method="POST">
+
+            <p>Name</p>
+            <input type="text" name="name" placeholder="Name" required="">
+
+            <p>ID</p>
+            <input type="text" name="id" placeholder="Faculty Id" required="">
+            <p>Designation</p>
+            <br>
+            <select name="desg" placeholder="desg" required="">
+                <option value = "4">professor</option>
+                <option value="3">assosiate professor</option>
+                <option value="2"> assistant professor</option>
+            </select>
+            <br>
+            <br><br>
+
+            <p>Email</p>
+            <input type="Email" name="email" placeholder="email id" required="">
+
+            <p>Password</p>
+            <input type="password" name="pwd1" placeholder="Enter Password" required="">
+
+            <p>Confirm Password</p>
+            <input type="password" name="pwd2" placeholder="Re-Enter Password" required="">
+
+            <input type="submit" name="" value="Register">
+
+            <br><br>
+            
+            <a>EXISTING USER?</a>
+            <button onclick=window.location.href="login.html">LOGIN</button>
+        </form>
+        
+    </div>
+
+</body>
+</head>
+</html>
