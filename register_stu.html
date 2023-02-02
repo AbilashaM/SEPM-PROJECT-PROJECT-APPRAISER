@@ -14,19 +14,12 @@
         <h1>Create an account</h1>
 
             <p>Name</p>
-            <input type="text" name="fname" placeholder="Name" required="" class="box" id="box">
+            <input type="text" name="sname" placeholder="Name" required="" class="box" id="box">
 
-            <p>ID</p>
-            <input type="text" name="fid" placeholder="Faculty Id" required="" class="box" id="box">
-            <p>Designation</p>
-            <br>
-            <select name="desg" placeholder="desg" required="" class="box" id="box">
-                <option value = "4">professor</option>
-                <option value="3">assosiate professor</option>
-                <option value="2"> assistant professor</option>
-            </select>
-            <br>
-           
+            <p>reg no</p>
+            <input type="text" name="sid" placeholder="Faculty Id" required="" class="box" id="box">
+            <p>team size </p>
+            <input type="text" name="teamsize" placeholder="Team size" required="" class="box" id="box">
             <p>Email</p>
             <input type="Email" name="email" placeholder="email id" required="" class="box" id="box">
 
@@ -37,11 +30,13 @@
             <input type="password" name="pwd2" placeholder="Re-Enter Password" required="" class="box" id="box">
 
             <input type="submit" name="" value="Register" id="submit" id="box">
+            <button onclick=window.location.href="team " id="register">Add team member</button>
 
             <br><br>
             
             <a>EXISTING USER?</a>
             <button onclick=window.location.href="login.html" id="register">LOGIN</button>
+
         </form>
         
     </div>
